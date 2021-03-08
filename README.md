@@ -1,7 +1,7 @@
 # wildfly-cli-compilations (standalone mode)
 This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime. Currently Only release standalone mode commands and later will update on domain mode.
 
-# Index
+## Index
 - Enable Datasource Stats 
 - See statistics
 - List all available datasources
@@ -18,17 +18,17 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 - Add, read, remove, write- System attribute
 
 
-# Enable Datasource Stats 
+## Enable Datasource Stats 
 /subsystem=datasources/data-source=ecommDS/statistics=pool:write-attribute(name=statistics-enabled,value=true)
 /subsystem=datasources/data-source=ecommDS/statistics=jdbc:write-attribute(name=statistics-enabled,value=true)
 /subsystem=datasources/data-source=ecommDS:write-attribute(name=statistics-enabled,value=true)
 
-# See statistics
+## See statistics
 /subsystem=datasources/data-source=ecommDS/statistics=pool:read-resource(include-runtime=true)
 /subsystem=datasources/data-source=ecommDS/statistics=jdbc:read-resource(include-runtime=true)
 /subsystem=datasources/data-source=ecommDS:read-resource(include-runtime=true,recursive=true)
 
-# List all available datasources
+## List all available datasources
 /subsystem=datasources:read-resource
 
 # Write, remove attributes
