@@ -1,5 +1,8 @@
 ## Wildfly-cli-compilations (standalone mode)
-This repository comprises of commonly used Wildfly cli commands in standalone to perform or manage Wildfly in Runtime. Currently release only for standalone mode and later will update on domain mode.
+This repository comprises of commonly used Wildfly cli commands in standalone to perform or manage Wildfly Application Server in Runtime. Currently release only for standalone mode and later will update on domain mode.
+
+### Command to connect Wildfly CLI 
+./bin/jboss-cli.sh --controller=localhost:9991 --connect
 
 ## Index
 - [Enable Datasource Stats](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#enable-datasource-stats)
