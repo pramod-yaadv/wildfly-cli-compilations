@@ -19,32 +19,32 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 
 
 # Enable Datasource Stats 
-/subsystem=datasources/data-source=octa/statistics=pool:write-attribute(name=statistics-enabled,value=true)
-/subsystem=datasources/data-source=octa/statistics=jdbc:write-attribute(name=statistics-enabled,value=true)
-/subsystem=datasources/data-source=octa:write-attribute(name=statistics-enabled,value=true)
+/subsystem=datasources/data-source=ecommDS/statistics=pool:write-attribute(name=statistics-enabled,value=true)
+/subsystem=datasources/data-source=ecommDS/statistics=jdbc:write-attribute(name=statistics-enabled,value=true)
+/subsystem=datasources/data-source=ecommDS:write-attribute(name=statistics-enabled,value=true)
 
 # See statistics
-/subsystem=datasources/data-source=jotaDS/statistics=pool:read-resource(include-runtime=true)
-/subsystem=datasources/data-source=jotaDS/statistics=jdbc:read-resource(include-runtime=true)
-/subsystem=datasources/data-source=jotaDS:read-resource(include-runtime=true,recursive=true)
+/subsystem=datasources/data-source=ecommDS/statistics=pool:read-resource(include-runtime=true)
+/subsystem=datasources/data-source=ecommDS/statistics=jdbc:read-resource(include-runtime=true)
+/subsystem=datasources/data-source=ecommDS:read-resource(include-runtime=true,recursive=true)
 
 # List all available datasources
 /subsystem=datasources:read-resource
 
 # Write, remove attributes
-/subsystem=datasources/data-source=jotaDS:write-attribute(name=query-timeout,value=300)
-/subsystem=datasources/data-source=jotaDS:undefine-attribute(name=query-timeout)
+/subsystem=datasources/data-source=ecommDS:write-attribute(name=query-timeout,value=300)
+/subsystem=datasources/data-source=ecommDS:undefine-attribute(name=query-timeout)
 
 # DataSource
-/subsystem=datasources/data-source=octa:test-connection-in-pool()
-/subsystem=datasources/data-source=octa/statistics=pool:read-resource(include-runtime=true)
-/subsystem=datasources/data-source=octa/statistics=jdbc:read-resource(include-runtime=true)
-/subsystem=datasources/data-source=octa:read-resource(include-runtime=true,recursive=true)
+/subsystem=datasources/data-source=ecommDS:test-connection-in-pool()
+/subsystem=datasources/data-source=ecommDS/statistics=pool:read-resource(include-runtime=true)
+/subsystem=datasources/data-source=ecommDS/statistics=jdbc:read-resource(include-runtime=true)
+/subsystem=datasources/data-source=ecommDS:read-resource(include-runtime=true,recursive=true)
 /subsystem=datasources:read-resource
 
 # Flush datasources
-/subsystem=datasources/data-source=jotaDS:flush-idle-connection-in-pool
-/subsystem=datasources/data-source=jotaDS:flush-all-connection-in-pool
+/subsystem=datasources/data-source=ecommDS:flush-idle-connection-in-pool
+/subsystem=datasources/data-source=ecommDS:flush-all-connection-in-pool
 
 
 # HTTP Configuration
