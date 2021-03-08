@@ -17,6 +17,7 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 - All Operations List
 - Add, read, remove, write- System attribute
 
+***
 
 ### Enable Datasource Stats 
 /subsystem=datasources/data-source=ecommDS/statistics=pool:write-attribute(name=statistics-enabled,value=true)
