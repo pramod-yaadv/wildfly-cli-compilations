@@ -1,5 +1,5 @@
 ## Wildfly-cli-compilations (standalone mode)
-This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime. Currently Only release standalone mode commands and later will update on domain mode.
+This repository comprises of commonly used Wildfly cli commands in standalone to perform or manage Wildfly in Runtime. Currently release only for standalone mode and later will update on domain mode.
 
 ## Index
 - [Enable Datasource Stats](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#enable-datasource-stats)
