@@ -22,6 +22,7 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 /subsystem=datasources/data-source=ecommDS/statistics=pool:write-attribute(name=statistics-enabled,value=true)
 /subsystem=datasources/data-source=ecommDS/statistics=jdbc:write-attribute(name=statistics-enabled,value=true)
 /subsystem=datasources/data-source=ecommDS:write-attribute(name=statistics-enabled,value=true)
+
 ---
 
 ### See statistics
