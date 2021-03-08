@@ -17,7 +17,7 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 - [All Operations List](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#all-operations-list)
 - [Add, read, remove, write- System attribute](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#add-read-remove-write--system-attribute)
 
-***
+******
 
 ### Enable Datasource Stats 
 /subsystem=datasources/data-source=ecommDS/statistics=pool:write-attribute(name=statistics-enabled,value=true)
@@ -61,6 +61,8 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 
 ### HTTP Configuration
 /subsystem=undertow/server=default-server/http-listener=default:read-resource(include-runtime=false
+
+---
 
 ### List Subsystems
 /:read-children-names(child-type=subsystem)
