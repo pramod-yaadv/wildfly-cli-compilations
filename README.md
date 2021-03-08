@@ -1,4 +1,4 @@
-# wildfly-cli-compilations (standalone mode)
+## Wildfly-cli-compilations (standalone mode)
 This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime. Currently Only release standalone mode commands and later will update on domain mode.
 
 ## Index
