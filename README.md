@@ -1,6 +1,23 @@
 # wildfly-cli-compilations (standalone mode)
 This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime. Currently Only release standalone mode commands and later will update on domain mode.
 
+# Index
+Enable Datasource Stats 
+See statistics
+List all available datasources
+Write, remove attributes
+DataSource
+Flush datasources
+HTTP Configuration
+List Subsystems
+To get interface address
+Add a log category
+Graceful Shutdown [Start / Shutdown/ Suspend / Resume]
+View all system properties
+All Operations List
+Add, read, remove, write- System attribute
+
+
 # Enable Datasource Stats 
 /subsystem=datasources/data-source=octa/statistics=pool:write-attribute(name=statistics-enabled,value=true)
 /subsystem=datasources/data-source=octa/statistics=jdbc:write-attribute(name=statistics-enabled,value=true)
