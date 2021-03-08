@@ -3,19 +3,19 @@ This is the repository for useful Wildfly cli commands to perform or manage Wild
 
 ## Index
 - [Enable Datasource Stats](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#enable-datasource-stats)
-- See statistics
-- List all available datasources
-- Write, remove attributes
-- DataSource
-- Flush datasources
-- HTTP Configuration
-- List Subsystems
-- To get interface address
-- Add a log category
-- Graceful Shutdown [Start / Shutdown/ Suspend / Resume]
-- View all system properties
-- All Operations List
-- Add, read, remove, write- System attribute
+- [See statistics](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#see-statistics)
+- [List all available datasources](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#list-all-available-datasources)
+- [Write, remove attributes](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#write-remove-attributes)
+- [DataSource](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#datasource)
+- [Flush datasources](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#flush-datasources)
+- [HTTP Configuration](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#http-configuration)
+- [List Subsystems](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#list-subsystems)
+- [To get interface address](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#how-to-get-interface-address)
+- [Add a log category](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#add-a-log-category)
+- [Graceful Shutdown - Start / Shutdown/ Suspend / Resume](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#graceful-shutdown-start--suspend--resume)
+- [View all system properties](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#view-all-system-properties)
+- [All Operations List](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#all-operations-list)
+- [Add, read, remove, write- System attribute](https://github.com/pramod-yaadv/wildfly-cli-compilations/blob/main/README.md#add-read-remove-write--system-attribute)
 
 ***
 
