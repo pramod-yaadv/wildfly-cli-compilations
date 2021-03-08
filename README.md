@@ -1,5 +1,5 @@
-# wildfly-cli-compilations
-This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime.
+# wildfly-cli-compilations (standalone mode)
+This is the repository for useful Wildfly cli commands to perform or manage Wildlfly in Runtime. Currently Only release standalone mode commands and later will update on domain mode.
 
 # Enable Datasource Stats 
 /subsystem=datasources/data-source=octa/statistics=pool:write-attribute(name=statistics-enabled,value=true)
